@@ -1,0 +1,383 @@
+:root {
+    --anim-active-element: 1.5s;
+    --anim-zero-block-arrow: 1s;
+    --anim-tabs-content: 0.5s;
+    --anim-timing-function: ease-in-out;
+}
+
+.active-element {
+    animation-name: anim-active-element;
+    animation-duration: var(--anim-active-element);
+    animation-timing-function: var(--anim-timing-function);
+    opacity: 1;
+}
+
+.active-element-reverse {
+    animation-name: anim-active-element-reverse;
+}
+
+.active-element-up {
+    animation-name: anim-active-element-up;
+}
+
+.active-element-down {
+    animation-name: anim-active-element-down;
+}
+
+.active-element-visible {
+    animation-name: anim-active-element-visible;
+}
+
+.active-child-element-1 {
+    animation-name: anim-active-child-element-1;
+}
+
+.active-child-element-2 {
+    animation-name: anim-active-child-element-2;
+}
+
+.active-child-element-3 {
+    animation-name: anim-active-child-element-3;
+}
+
+.active-child-element-4 {
+    animation-name: anim-active-child-element-4;
+}
+
+.active-child-element-5 {
+    animation-name: anim-active-child-element-5;
+}
+
+.active-child-element-reverse-1 {
+    animation-name: anim-active-child-element-reverse-1;
+}
+
+.active-child-element-reverse-2 {
+    animation-name: anim-active-child-element-reverse-2;
+}
+
+.active-child-element-reverse-3 {
+    animation-name: anim-active-child-element-reverse-3;
+}
+
+.active-child-element-reverse-4 {
+    animation-name: anim-active-child-element-reverse-4;
+}
+
+.active-child-element-reverse-5 {
+    animation-name: anim-active-child-element-reverse-5;
+}
+
+.active-child-element-up-1 {
+    animation-name: anim-active-child-element-up-1;
+}
+
+.active-child-element-up-2 {
+    animation-name: anim-active-child-element-up-2;
+}
+
+.active-child-element-up-3 {
+    animation-name: anim-active-child-element-up-3;
+}
+
+.active-child-element-up-4 {
+    animation-name: anim-active-child-element-up-4;
+}
+
+.active-child-element-up-5 {
+    animation-name: anim-active-child-element-up-5;
+}
+
+.active-child-element-down-1 {
+    animation-name: anim-active-child-element-down-1;
+}
+
+.active-child-element-down-2 {
+    animation-name: anim-active-child-element-down-2;
+}
+
+.active-child-element-down-3 {
+    animation-name: anim-active-child-element-down-3;
+}
+
+.active-child-element-down-4 {
+    animation-name: anim-active-child-element-down-4;
+}
+
+.active-child-element-down-5 {
+    animation-name: anim-active-child-element-down-5;
+}
+
+.zero-block__arrow {
+    animation-name: anim-zero-arrow;
+    animation-duration: var(--anim-zero-block-arrow);
+    animation-timing-function: var(--anim-timing-function);
+    animation-iteration-count: infinite;
+}
+
+.section-how-we-work__content_active {
+    animation-name: tabs-content-active;
+    animation-duration: var(--anim-tabs-content);
+    animation-timing-function: var(--anim-timing-function);
+}
+
+.section-how-we-work__image_active {
+    animation-name: tabs-image-active;
+    animation-duration: var(--anim-tabs-content);
+    animation-timing-function: var(--anim-timing-function);
+}
+
+@keyframes anim-active-element {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-element-reverse {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-element-up {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-element-down {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-element-visible {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anim-active-child-element-1 {
+    0% {
+        transform: translateX(-100vw);
+    }
+    60% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-2 {
+    0% {
+        transform: translateX(-100vw);
+    }
+    70% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-3 {
+    0% {
+        transform: translateX(-100vw);
+    }
+    80% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-4 {
+    0% {
+        transform: translateX(-100vw);
+    }
+    90% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-5 {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-reverse-1 {
+    0% {
+        transform: translateX(100vw);
+    }
+    60% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-reverse-2 {
+    0% {
+        transform: translateX(100vw);
+    }
+    70% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-reverse-3 {
+    0% {
+        transform: translateX(100vw);
+    }
+    80% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-reverse-4 {
+    0% {
+        transform: translateX(100vw);
+    }
+    90% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-reverse-5 {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-up-1 {
+    0% {
+        transform: translateY(-100vh);
+    }
+    60% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-up-2 {
+    0% {
+        transform: translateY(-100vh);
+    }
+    70% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-up-3 {
+    0% {
+        transform: translateY(-100vh);
+    }
+    80% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-up-4 {
+    0% {
+        transform: translateY(-100vh);
+    }
+    90% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-up-5 {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-down-1 {
+    0% {
+        transform: translateY(100vh);
+    }
+    60% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-down-2 {
+    0% {
+        transform: translateY(100vh);
+    }
+    70% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-down-3 {
+    0% {
+        transform: translateY(100vh);
+    }
+    80% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-down-4 {
+    0% {
+        transform: translateY(100vh);
+    }
+    90% {
+        transform: none;
+    }
+}
+
+@keyframes anim-active-child-element-down-5 {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes anim-zero-arrow {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(7.5px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes tabs-content-active {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes tabs-image-active {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: none;
+    }
+}
